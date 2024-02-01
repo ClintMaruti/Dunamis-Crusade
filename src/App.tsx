@@ -1,15 +1,15 @@
 import Parents from "./assets/parents.png";
 import { ButtonLink } from "./components/ui/button-link";
-
+// md:bg-[url('./assets/bg.png')] bg-[url('./assets/bg-small-one.png')]
 function App() {
     return (
-        <div className="h-screen w-full md:bg-[url('./assets/bg.png')] bg-[url('./assets/bg-small-one.png')] bg-cover  md:bg-cover bg-center">
-            <div className="w-full h-screen flex justify-center items-center backdrop-brightness-50">
+        <div className="h-screen w-full bg-slate-100 bg-cover md:bg-[url('./assets/bg.png')] bg-[url('./assets/bg-small-one.png')] md:bg-cover bg-center">
+            <div className="w-full h-screen flex justify-center items-center ">
                 {/* <div className="flex justify-center items-center -mt-40 w-1/2">
                     
                 </div> */}
                 <div className="flex flex-col justify-center">
-                    <div className="absolute top-24 sm:top-4 m-auto left-0 right-0 md:flex md:justify-center md:items-center lg:w-1/2">
+                    <div className="absolute top-0 sm:top-0 m-auto left-0 right-0 md:flex md:justify-center md:items-center lg:w-1/2">
                         <img src={Parents} alt="parents" />
                     </div>
                     <div className="flex flex-col justify-center items-center z-10  sm:mt-52 text-white">
