@@ -12,6 +12,9 @@ module.exports = {
             },
         },
         extend: {
+            backgroundImage: {
+                main: "url('/src/assets/bg-one.svg')",
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
