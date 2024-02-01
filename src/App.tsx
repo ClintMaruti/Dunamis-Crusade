@@ -1,12 +1,13 @@
+import Parents from "./assets/parents.png";
 import { ButtonLink } from "./components/ui/button-link";
-// md:bg-[url('./assets/bg.png')] bg-[url('./assets/bg-small-one.png')]
+
 function App() {
     return (
-        <div className="h-screen w-full bg-purple-100 bg-main bg-cover md:bg-cover bg-center grid place-content-center">
+        <div className="h-screen bg-secondaryImg bg-cover bg-center grid place-content-center">
             <div className="flex flex-col justify-center items-center">
-                {/* <div className="absolute top-0 sm:top-0 m-auto left-0 right-0 md:flex md:justify-center md:items-center lg:w-1/2">
-                        <img src={Parents} alt="parents" />
-                    </div> */}
+                <div className="w-3/4 md:w-1/2">
+                    <img src={Parents} alt="parents" />
+                </div>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="md:text-8xl text-5xl font-black  z-10">Nairobi,Kenya</h1>
                     <h2 className="md:text-4xl text-lg font-extrabold ">Healing and Deliverance Crusade</h2>

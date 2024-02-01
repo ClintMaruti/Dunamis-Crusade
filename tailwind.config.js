@@ -13,7 +13,8 @@ module.exports = {
         },
         extend: {
             backgroundImage: {
-                main: "url('/src/assets/bg-one.svg')",
+                mainImg: "url('/src/assets/bg-one.svg')",
+                secondaryImg: "url('/src/assets/bg-background.jpg')",
             },
             colors: {
                 border: "hsl(var(--border))",
