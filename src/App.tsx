@@ -23,13 +23,13 @@ function App() {
                     </ButtonLink>
                 </div>
                 <div className="flex flex-col gap-2 bg-white p-3 rounded-md shadow-md my-4 md:my-0">
-                    <h5>Click if you want to become a volunteer</h5>
+                    <h5>Click to be a volunteer</h5>
                     <ButtonLink to="https://forms.gle/aL8x9c83nkJD9Lw4A" className="cursor-pointer">
                         Volunteer Registration
                     </ButtonLink>
                 </div>
                 <div className="flex flex-col gap-2 bg-white p-3 rounded-md shadow-md">
-                    <h5>Click if you want to partner in giving</h5>
+                    <h5>Click to be a partner</h5>
                     <ButtonLink to="https://forms.gle/4Lu7GSLEzF1oJAkB7" className="cursor-pointer">
                         Patnership Registration
                     </ButtonLink>
