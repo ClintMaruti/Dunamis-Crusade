@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/*eslint-env node*/
 module.exports = {
     darkMode: ["class"],
     content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
@@ -13,8 +14,8 @@ module.exports = {
         },
         extend: {
             backgroundImage: {
-                mainImg: "url('/src/assets/bg-one.svg')",
-                secondaryImg: "url('/src/assets/bg-background.jpg')",
+                mainImg: "url('/src/assets/poster-bg.png')",
+                phoneImg: "url('/src/assets/phone-poster-bg.png')",
             },
             colors: {
                 border: "hsl(var(--border))",
