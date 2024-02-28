@@ -11,7 +11,7 @@ function App() {
                 <img src={Poster} width="100%" className="hidden md:flex" />
                 <img src={PhonePoster} width="100%" className="md:hidden" />
             </div>
-            <div className="flex flex-col items-center justify-center text-white md:hidden">
+            <div className="flex flex-col items-center justify-center text-white md:hidden -mt-16">
                 <p>Registration ongoing</p>
                 <ArrowDown className="animate-bounce" />
             </div>
