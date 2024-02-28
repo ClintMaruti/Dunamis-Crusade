@@ -15,7 +15,7 @@ function App() {
                 <p>Registration ongoing</p>
                 <ArrowDown className="animate-bounce" />
             </div>
-            <div className="absolute bottom-3 md:flex gap-4 justify-center px-2 w-full mb-3">
+            <div className="md:absolute bottom-3 md:flex gap-4 justify-center px-2 w-full mb-3">
                 <div className="flex flex-col gap-2 bg-white p-3 rounded-md shadow-md my-4 md:my-0">
                     <h5>Normal registration</h5>
                     <ButtonLink to="https://forms.gle/ux8QF9PeiKLWVFRY8" className="cursor-pointer">
