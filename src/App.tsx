@@ -1,7 +1,7 @@
 // import Parents from "./assets/parents.png";
 import { ArrowDown } from "lucide-react";
-import PhonePoster from "./assets/phone-poster-bg.png";
-import Poster from "./assets/poster-bg.png";
+import PhonePoster from "./assets/phone-poster-bg-compressed.png";
+import Poster from "./assets/poster-bg-compressed.png";
 import { ButtonLink } from "./components/ui/button-link";
 
 function App() {
