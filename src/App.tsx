@@ -24,7 +24,7 @@ function App() {
                 </div>
                 <div className="flex flex-col gap-2 bg-white p-3 rounded-md shadow-md my-4 md:my-0">
                     <h5>Click to be a volunteer</h5>
-                    <ButtonLink to="https://chat.whatsapp.com/FtPodIX41jbCfzPfIiwi2X" className="cursor-pointer">
+                    <ButtonLink to="https://chat.whatsapp.com/EbMVHOKv22nIAJLhcaNcJP" className="cursor-pointer">
                         Volunteer Registration
                     </ButtonLink>
                 </div>
